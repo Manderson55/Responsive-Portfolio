@@ -1,0 +1,266 @@
+/* 
+   * Teal color (used for headings and backgrounds): `#4aaaa5`
+   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
+   * Main header background color: `#ffffff`
+   * Main header border color: `#cccccc`
+   * Footer background color: `#666666`
+   * Main content background color: `#ffffff`
+   * Main content border color: `#dddddd`
+
+2. Fonts:
+
+   * For heading fonts use `font-family: 'Georgia', Times, Times New Roman, serif;`.
+   * For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`.
+	
+*/
+h2 h3 {
+	font-family: : Georgia, Times, Times New Roman, serif;
+}
+
+p  {
+	font-family : Arial, 'Helvetica Neue', Helvetica, sans-serif; 	
+}
+
+li {
+	font-family : Arial, 'Helvetica Neue', Helvetica, sans-serif; 
+}
+
+body {
+
+	background: url("../images/symphony.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 0px;
+}
+
+li a {
+	padding: 10px;
+	text-decoration: none;
+}	
+
+.header {
+	overflow: hidden;
+	width: 100%;
+	background-color: #ffffff;
+	border: 1px;
+	border-color: #cccccc;
+	padding: 0;
+}
+
+#logo {
+	float: left;
+	margin-left: 60px;
+	width:210px;
+	color: white;
+	background-color: #4aaaa5;
+	padding: 20px;
+	text-align: left;
+
+}
+
+#menu {
+	float: right;
+	padding: 40px 60px 40px 0px;
+	margin-right: 80px;
+}
+
+/* end header  - top area
+ beggining main content area  */
+
+.content {
+	clear: both;
+	margin: 40px 80px 40px 60px;
+	padding-bottom: 100px;
+
+}
+
+.main h2 {
+	color: #4aaaa5;
+}
+
+.main img {
+	float:left;
+	margin-right: 20px;
+}
+
+.main {
+	float: left;
+	background-color: #ffffff;
+	border: solid;
+	border-color: #dddddd;
+	width: 650px;
+	margin-right: 20px;
+	margin-bottom: 30px; 
+	padding: 20px;
+}
+
+.imageLeft {
+	position: relative;
+	float: left;
+	padding-bottom: 20px;
+	padding-right: 5px;
+}
+
+.websiteName {
+	position: absolute;
+	text-align: center;
+	top: 175px;
+	width: 300px;
+	color: white;
+	background-color: #4aaaa5; 
+}
+#conejoPrecision {
+	float: left;
+	padding-bottom: 20px;
+}
+
+#weddings {
+	float: left;
+	padding-bottom: 20px;
+
+}
+
+#skyreachAdvisors {
+	float: left;
+	padding-bottom: 20px;
+}
+
+#dianeDressUp {
+	float: left;
+	padding-bottom: 20px;
+
+}
+
+#games {
+	float: left;
+	padding-bottom: 20px;
+}
+
+
+/* end main content area - left area
+ beggining social area - right area */
+
+.social h3 {
+	color: #4aaaa5;
+}
+
+.social {
+	float: left;
+	padding: 10px 20px 20px 20px;
+	background-color: #ffffff;
+	border: solid;
+	border-color: #dddddd;
+	width: 224px;
+	margin-bottom: 15px;
+}
+
+.socialIcon {
+	float: left;
+	margin-right: 10px;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+
+}
+
+
+#fixedFooter {
+	clear: both;
+	position: static;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+}
+
+footer {
+	padding: 30px;
+	text-align: center;
+	color: white;
+	background-color:#666666; 
+}
+
+@media screen and (max-width: 980px) {
+    .social { 
+	margin-bottom: 15px;
+  }
+  
+  
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+  	padding: 0;
+  	margin: 0;
+  }
+  .main {
+  	width: 94%;
+  	margin-top: 15px;
+  }
+
+  .social { 
+	margin-bottom: 15px;
+  }
+  
+}
+
+@media screen and (max-width: 640px) {
+
+	.header { 
+		position: static;
+	}
+
+	#menu ul{
+		list-style-type: none;
+		float: left;
+		margin-left: 20px;
+		position: static;
+
+	}
+
+	#menu li {
+	    margin:20px;
+		padding: 8px;
+
+	}
+
+	.social { 
+	
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 15px;
+    }
+
+  	.main {
+  		width: 94%;
+  	}
+  
+}
+
+@media screen and (max-width: 370px) {
+
+	#logo{ 
+		margin: 0 auto;
+		width: 100%;	
+
+	}
+
+	h2 {
+		padding: 0;
+	}
+
+}	
